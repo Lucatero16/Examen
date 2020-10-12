@@ -1,0 +1,155 @@
+footer, header{
+	background-color: #c43f35;
+}
+footer{
+	color: white;
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+}
+body{
+
+	margin: auto;
+}
+h1{
+	color: #c43f35;
+}
+input{
+	width: 80%;
+	overflow: hidden;
+}
+img{
+   max-width:100%
+}
+.banner, .contenedor{
+	width: 100%;
+}
+.center{
+	text-align: center;
+	align-items: center;
+}
+.referencia{
+	text-decoration: none;
+	color: #c43f35;
+	margin-right: 2%;
+	margin-left: 2%;
+}
+.col-4{
+	width: 25%;
+	float: left;
+}
+.sub-tit{
+	color: #b36660;
+	font-size: 18px;
+}
+.mar-1{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.img{
+	padding-left: 10%;
+	width: 80%;
+}
+.container{
+	width: 50%;
+	background-color: #d9d9d9;
+	padding: 10px 10px;
+	border-radius: 5px;
+	padding-bottom: 4em;
+}
+.container-img{
+	width: 50%;
+}
+.disp-flx{
+	display: flex;
+}
+.menu{
+	background-color: #bfacaa;
+	padding: 1em 1em 1em 1em;
+	font-size: 20px;
+}
+.icon{
+	width: 2%;
+}
+.panel{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 1%;
+	position: absolute;
+	top: 6vh;
+}
+.btn{
+	text-align: center;
+	background-color: #b36660;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+}
+.cont-produ{
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.img-produ{
+	width: 300px;
+	height: 250px;
+}
+.formulario{
+	width: 60%;
+	background-color: #d1d1d1;
+	border-radius: 5px;
+	box-shadow: 0 10px 6px -6px #777;
+}
+.cont-formulario, .cont-ubi, .content-produ{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+.datos{
+	text-align: left;
+	margin: auto;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.mensaje{
+	width: 90%;
+	height: 300px;
+}
+.datos-empresa{
+	width: 48%;
+}
+.mapa{
+	width: 50%;
+	float: left;
+}
+.texto-mapa{
+	font-size: 20px;
+	color: #b36660;
+}
+.info{
+	text-align: center;
+	padding-top: 10%;
+}
+@media screen and (max-width: 769px){
+	.container{
+		width: 100% ;
+	}
+	.container-img{
+		width: 100%;
+	}
+	.disp-flx{
+		display: inline-block;
+	}
+	.cont-produ{
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 376px){
+	.mapa{
+		width: 100%;
+	}
+	.formulario{
+		width: 100%;
+	}
+}
